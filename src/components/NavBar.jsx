@@ -4,7 +4,7 @@ import { LuLogOut } from 'react-icons/lu';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import { logOutUser } from '../redux/AppSlice';
+import { logOutUser } from '../redux/appSlice';
 import { getAuth, signOut } from "firebase/auth";
 
 
