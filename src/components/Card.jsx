@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, delateall, delateitem, increment } from "../redux/AppSlice";
+import { decrement, delateall, delateitem, increment } from "../redux/appSlice";
 import { Link } from "react-router";
 
 const Card = () => {
