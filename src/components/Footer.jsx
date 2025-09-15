@@ -36,7 +36,7 @@ const Footer = () => {
             </a>
             <a
               className=" text-[#fff] hover:scale-105 hover:text-[#ffffffb0] transition duration-500"
-              href="https://www.linkedin.com/in/mohamed-abdullah-ba07682b6/"
+              href="www.linkedin.com/in/mohamed-abdullah-m"
               target="_blank"
             >
               <IoLogoLinkedin />
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm text-gray-200">
-        Copyright 2025 © <a href="">E-Shop</a>. All Right Reserved.
+        Copyright 2025 © <a href="https://eshop-one2025.vercel.app/">E-Shop</a>. All Right Reserved.
       </p>
     </footer>
   );
