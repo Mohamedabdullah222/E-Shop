@@ -36,7 +36,7 @@ const Footer = () => {
             </a>
             <a
               className=" text-[#fff] hover:scale-105 hover:text-[#ffffffb0] transition duration-500"
-              href="www.linkedin.com/in/mohamed-abdullah-m"
+              href="https://www.linkedin.com/in/mohamed-abdullah-m/"
               target="_blank"
             >
               <IoLogoLinkedin />
