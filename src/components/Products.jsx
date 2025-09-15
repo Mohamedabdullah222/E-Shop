@@ -2,7 +2,7 @@ import React from 'react';
 import { RxStarFilled } from 'react-icons/rx';
 import { useDispatch } from 'react-redux';
 import { useLoaderData } from 'react-router-dom';
-import { addToCart } from '../redux/AppSlice';
+import { addToCard } from '../redux/appSlice';
 
 const Products = () => {
   const data = useLoaderData();
@@ -49,7 +49,7 @@ const Products = () => {
   <div className="flex-grow"></div>
 
   <button
-  onClick={() => dispatch( addToCart ({
+  onClick={() => dispatch( addToCard ({
     id : item.id ,
     title : item.title ,
     decs : item.description ,

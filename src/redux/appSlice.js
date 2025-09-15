@@ -16,7 +16,7 @@ export const appSlice = createSlice({
 
   reducers: {
 
-    addToCart : (state , action) => {
+    addToCard : (state , action) => {
       const item = state.products.find((item) => item.id === action.payload.id)
 
       if (item) {
@@ -56,6 +56,6 @@ export const appSlice = createSlice({
   },
 });
 
-export const { addToCart , increment , decrement , delateitem , delateall , setUser, logOutUser} = appSlice.actions
+export const { addToCard , increment , decrement , delateitem , delateall , setUser, logOutUser} = appSlice.actions
 
 export default appSlice.reducer

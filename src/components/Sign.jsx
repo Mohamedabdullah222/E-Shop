@@ -1,3 +1,4 @@
+import React from 'react';
 import { IoEyeOffOutline } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
@@ -9,7 +10,7 @@ import Swal from "sweetalert2";
 import { Field, Form, Formik } from "formik";
 import { FaSignOutAlt } from "react-icons/fa";
 import { useDispatch } from "react-redux";
-import { setUser } from "../redux/AppSlice";
+import { setUser } from "../redux/appSlice";
 
 const signInSchema = Yup.object({
   email: Yup.string().email("Invalid email").required("Email is required"),

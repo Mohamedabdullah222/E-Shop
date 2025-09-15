@@ -1,6 +1,5 @@
 import React from 'react'
-import { IoEyeOffOutline } from "react-icons/io5";
-import { MdOutlineDriveFileRenameOutline, MdOutlineMail } from "react-icons/md";
+import {  MdOutlineMail } from "react-icons/md";
 import { Link } from "react-router";
 import { sin } from "../assets";
 
