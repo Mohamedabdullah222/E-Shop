@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Sign from './components/Sign'
 import Register from './components/Register'
-import { ProductsData } from './api/Api'
+import { ProductsData } from './api/api'
 import Forgot from './components/Forgot'
 import Card from './components/Card'
 
